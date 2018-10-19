@@ -1,0 +1,6 @@
+framework module HLHJProjectSDK {
+  umbrella header "HLHJProjectSDK.h"
+
+  export *
+  module * { export * }
+}
