@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.source_files            = "HLHJProjectSDK.framework/Headers/*.{h}" 
   s.ios.vendored_frameworks = "HLHJProjectSDK.framework"
-  s.resources               =  "HLHJSpecialTopicsResource.bundle"
+  s.resources               = "HLHJSpecialTopicsResource.bundle"
 
   s.dependency            "AFNetworking","~>3.2.1"
   s.dependency            "Masonry","~>1.1.0" 
