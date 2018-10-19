@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.author       = { "zaijianrumo" => "2245190733@qq.com" }
   s.source       = { :git => "https://github.com/zaijianrumo/SpecialSpec.git", :tag =>  s.version}
 
-  s.source_files            = "HLHJProjectSDK.framework/Headers/*.{h}" 
-  s.ios.vendored_frameworks = "HLHJProjectSDK.framework"
-  s.resources               = "HLHJSpecialTopicsResource.bundle"
+  s.source_files            = "SpecialSpec/HLHJProjectSDK.framework/Headers/*.{h}" 
+  s.ios.vendored_frameworks = "SpecialSpec/HLHJProjectSDK.framework"
+  s.resources               = "SpecialSpec/HLHJSpecialTopicsResource.bundle"
 
   s.dependency            "AFNetworking","~>3.2.1"
   s.dependency            "Masonry","~>1.1.0" 
