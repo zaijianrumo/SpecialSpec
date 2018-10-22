@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = "HLHJProjectSDK.framework"
   s.resources               = "HLHJSpecialTopicsResource.bundle"
   
-  s.xcconfig = {'VALID_ARCHS' => 'arm64 x86_64',}
+  s.xcconfig = {'VALID_ARCHS' => 'arm64 x86_64'}
 
   s.dependency            "AFNetworking"
   s.dependency            "Masonry"
