@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HLHJProjectSDK"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "天马旅游专题"
   s.description  = <<-DESC
                    "天马专题"
@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   s.author       = { "zaijianrumo" => "2245190733@qq.com" }
   s.source       = { :git => "https://github.com/zaijianrumo/SpecialSpec.git", :tag =>  s.version}
 
-  s.source_files            = "HLHJProjectSDK.framework/Headers/*.{h}" 
-  s.ios.vendored_frameworks = "HLHJProjectSDK.framework"
-  s.resources               = "HLHJSpecialTopicsResource.bundle"
+  s.source_files            = "HLHJFramework/HLHJProjectSDK.framework/Headers/*.{h,m}" 
+  s.ios.vendored_frameworks = "HLHJFramework/HLHJProjectSDK.framework"
+  s.resources               = "HLHJFramework/HLHJSpecialTopicsResource.bundle"
   
   s.xcconfig = {'VALID_ARCHS' => 'arm64 x86_64'}
 
